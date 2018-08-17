@@ -4,13 +4,13 @@ WordMaker
 
 You can view multiple demos here:
 
-* [Islaravi Words](https://jdifebo.github.io/WordMaker/islaravi.html)
-* [English Words](https://jdifebo.github.io/WordMaker/english.html)
-* [Elements](https://jdifebo.github.io/WordMaker/elements.html)
-* [Latin Words](https://jdifebo.github.io/WordMaker/latin.html)
-* [Popular Male Names](https://jdifebo.github.io/WordMaker/male_names.html)
-* [Popular Female Names](https://jdifebo.github.io/WordMaker/female_names.html)
-* [Advanced Options](https://jdifebo.github.io/WordMaker/advanced.html)
+* [Islaravi Words](https://islaravi.github.io/WordMaker/islaravi.html)
+* [English Words](https://islaravi.github.io/WordMaker/english.html)
+* [Elements](https://islaravi.github.io/WordMaker/elements.html)
+* [Latin Words](https://islaravi.github.io/WordMaker/latin.html)
+* [Popular Male Names](https://islaravi.github.io/WordMaker/male_names.html)
+* [Popular Female Names](https://islaravi.github.io/WordMaker/female_names.html)
+* [Advanced Options](https://islaravi.github.io/WordMaker/advanced.html)
 
 
 
