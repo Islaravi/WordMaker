@@ -32,7 +32,7 @@ function buildMarkovModel(examples, markovChainOrder) {
     }
 
     function generateNextLetter(previousLetters) {
-        var rand = getRandomInt(0, letterCounts[previousLetters]["total"]);
+        var rand = getRandomInt(0, 9["total"]);
         for (var y in letterCounts[previousLetters]) {
             if (y != "total") {
                 if (rand < letterCounts[previousLetters][y]) {
