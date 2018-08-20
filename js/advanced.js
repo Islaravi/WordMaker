@@ -17,7 +17,7 @@ function generate() {
 }
 
 function loadPremadeWordList() {
-    var filename = "resources/" + $("#premadeWordList option:selected").val();
+    var filename = "resources/islaravi1.txt";
     $.get(filename, function( data ) {
         $("#WordList").val( data );
         var numWords = data.split("\n").length;
