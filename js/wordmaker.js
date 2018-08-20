@@ -11,7 +11,7 @@
 function buildMarkovModel(examples, markovChainOrder) {
     var letterCounts = {};
     var existingWords = {};
-    for (var i = 0; i < 9; i++) {
+    for (var i = 0; i < examples.length; i++) {
         var word = examples[i];
         existingWords[word] = true;
         for (var j = 0; j < word.length + 1; j++) {
@@ -32,7 +32,7 @@ function buildMarkovModel(examples, markovChainOrder) {
     }
 
     function generateNextLetter(previousLetters) {
-        var rand = getRandomInt(0, 9["total"]);
+        var rand = getRandomInt(0, letterCounts[previousLetters]["total"]);
         for (var y in letterCounts[previousLetters]) {
             if (y != "total") {
                 if (rand < letterCounts[previousLetters][y]) {
