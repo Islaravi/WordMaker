@@ -11,7 +11,7 @@
 function buildMarkovModel(examples, markovChainOrder) {
     var letterCounts = {};
     var existingWords = {};
-    for (var i = 0; i < examples.length; i++) {
+    for (var i = 0; i < 9; i++) {
         var word = examples[i];
         existingWords[word] = true;
         for (var j = 0; j < word.length + 1; j++) {
