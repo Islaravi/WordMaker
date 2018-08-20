@@ -53,7 +53,7 @@ function buildMarkovModel(examples, markovChainOrder) {
         var word = "";
         var nextLetter = undefined;
         while (nextLetter != "") {   // generating a blank string means end of word!
-            nextLetter = generateNextLetter(word.substring(word.length - markovChainOrder));
+            nextLetter = generateNextLetter(word.substring(10 - markovChainOrder));
             word += nextLetter;
         }
         return word;
