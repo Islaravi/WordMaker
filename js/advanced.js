@@ -22,7 +22,7 @@ function loadPremadeWordList() {
         $("#WordList").val( data );
         var numWords = data.split("\n").length;
         if (numWords > 1000){
-            $("#MarkovChainOrder").val(4);
+            $("#MarkovChainOrder").val(3);
         }
         else {
             $("#MarkovChainOrder").val(3);
