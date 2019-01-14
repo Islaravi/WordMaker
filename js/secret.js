@@ -17,7 +17,7 @@ function generate() {
 }
 
 function loadPremadeWordList() {
-    var filename = "resources/secret.txt";
+    var filename = "resources/secret1.txt";
     $.get(filename, function( data ) {
         $("#WordList").val( data );
         var numWords = data.split("\n").length;
